@@ -11,44 +11,38 @@ The project allows the user to add student information, view student records, ca
 * Add student details
 * Enter marks for three subjects
 * View student records
+* Analyze student performance
 * Calculate total marks
-* Calculate average
+* Calculate average marks
 * Calculate percentage
 * Assign grades
 * Show Pass or Fail result
-* Analyze a student using roll number
 * Save student data to a text file
 
 ## Technologies Used
 
 * Python 3
-* File Handling
-* Lists
-* Dictionaries
-* Functions
-* Loops
-* Conditional Statements
-* User Input
+* Command Line / Terminal
+* Text File
 
 ## Requirements
 
 * Python 3.x
-* Any terminal or command prompt
+* Command Prompt or Terminal
 * No external Python libraries are required.
 
 ## Installation
 
-
-1. Clone the repository:
+### 1. Clone the repository
 
 ```bash
-https://github.com/bhoomi26mim20125/Student-Performance-Analyzer
+git clone https://github.com/bhoomi26mim20125/Student-Performance-Analyzer.git
 ```
 
-2. Open the project folder:
+### 2. Open the project folder
 
 ```bash
-cd student-performance-analyzer
+cd Student-Performance-Analyzer
 ```
 
 ## How to Run
@@ -59,9 +53,22 @@ Run the following command in the terminal:
 python student_performance_analyzer.py
 ```
 
+The program will start and display the main menu.
+
 ## How to Use
 
-After running the program, a menu will appear.
+After running the program, the following menu will appear:
+
+```text
+================================
+   STUDENT PERFORMANCE ANALYZER
+================================
+1. Add Student
+2. View Students
+3. Analyze Student
+4. Save Data
+5. Exit
+```
 
 ### 1. Add Student
 
@@ -73,7 +80,7 @@ Select option 1 and enter:
 
 ### 2. View Students
 
-Select option 2 to display all students currently stored in the program.
+Select option 2 to view all student records currently stored in the program.
 
 ### 3. Analyze Student
 
@@ -89,7 +96,7 @@ The program displays:
 
 ### 4. Save Data
 
-Select option 4 to save the student information into `students.txt`.
+Select option 4 to save student information into the `students.txt` file.
 
 ### 5. Exit
 
@@ -97,29 +104,20 @@ Select option 5 to close the program.
 
 ## Grading System
 
-| Percentage  | Grade |
-| ----------- | ----- |
-| 90 or above | A+    |
-| 80–89       | A     |
-| 70–79       | B     |
-| 60–69       | C     |
-| 50–59       | D     |
-| Below 50    | F     |
+| Percentage   | Grade |
+| ------------ | ----- |
+| 90 and above | A+    |
+| 80–89        | A     |
+| 70–79        | B     |
+| 60–69        | C     |
+| 50–59        | D     |
+| Below 50     | F     |
 
-The student is considered **Pass** if the percentage is 40 or above.
+A student with a percentage of 40 or above is considered **Pass**.
 
 ## Example
 
 ```text
-================================
-   STUDENT PERFORMANCE ANALYZER
-================================
-1. Add Student
-2. View Students
-3. Analyze Student
-4. Save Data
-5. Exit
-
 Enter your choice: 1
 
 Enter student name: Rahul
@@ -133,30 +131,65 @@ Enter marks for Subject 3: 85
 Student added successfully!
 ```
 
+For analysis:
+
+```text
+===== Student Analysis =====
+Name: Rahul
+Roll Number: 101
+Marks: [80.0, 75.0, 85.0]
+Total: 240.0
+Average: 80.0
+Percentage: 80.0 %
+Grade: A
+Result: Pass
+```
+
 ## Project Structure
 
 ```text
-student-performance-analyzer/
+Student-Performance-Analyzer/
 │
 ├── student_performance_analyzer.py
 ├── students.txt
 └── README.md
 ```
 
-## Learning Outcomes
+## Python Concepts Used
 
-This project helped in practicing basic Python programming concepts such as:
+This project uses basic Python concepts including:
 
 * Variables
+* Data types
 * Input and output
 * Lists
 * Dictionaries
 * Functions
 * Loops
 * Conditional statements
+* Arithmetic operators
 * File handling
-* Basic calculations
+
+## Learning Outcomes
+
+This project helped in practicing basic Python programming concepts and applying them to a practical command-line application.
+
+It improved understanding of functions, lists, dictionaries, loops, conditional statements, calculations, and file handling.
 
 ## Conclusion
 
-The Student Performance Analyzer provides a simple way to manage student records and calculate academic performance using basic Python programming concepts. The project demonstrates how different Python concepts can be combined to create a useful command-line application.
+Student Performance Analyzer provides a simple way to manage student records and calculate academic performance using Python.
+
+The project demonstrates how basic Python concepts can be combined to create a useful command-line application.
+
+## Future Scope
+
+The project can be improved in the future by:
+
+* Adding more subjects
+* Updating and deleting student records
+* Searching students by name
+* Generating class-level performance statistics
+* Adding attendance information
+* Using a database for data storage
+* Adding graphical reports
