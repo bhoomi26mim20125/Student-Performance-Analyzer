@@ -38,10 +38,11 @@ The project allows the user to add student information, view student records, ca
 
 ## Installation
 
+
 1. Clone the repository:
 
 ```bash
-https://github.com/bhoomi26mim20125
+https://github.com/bhoomi26mim20125/Student-Performance-Analyzer
 ```
 
 2. Open the project folder:
