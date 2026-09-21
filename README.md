@@ -29,17 +29,29 @@ The project allows the user to add student information, view student records, ca
 
 * Python 3.x
 * Command Prompt or Terminal
-* No external Python libraries are required.
+* No external Python libraries are required
+
+## Dependencies
+
+No external Python libraries are required.
+
+This project uses only Python's built-in features and does not require any package installation.
+
+## Configuration
+
+No additional configuration is required.
+
+The project uses the `students.txt` file to store student data.
 
 ## Installation
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-https://github.com/bhoomi26mim20125/Student-Performance-Analyzer
+git clone https://github.com/bhoomi26mim20125/Student-Performance-Analyzer.git
 ```
 
-### 2. Open the project folder
+### 2. Open the Project Folder
 
 ```bash
 cd Student-Performance-Analyzer
@@ -72,7 +84,7 @@ After running the program, the following menu will appear:
 
 ### 1. Add Student
 
-Select option 1 and enter:
+Select option `1` and enter:
 
 * Student name
 * Roll number
@@ -80,11 +92,11 @@ Select option 1 and enter:
 
 ### 2. View Students
 
-Select option 2 to view all student records currently stored in the program.
+Select option `2` to view all student records currently stored in the program.
 
 ### 3. Analyze Student
 
-Select option 3 and enter the student's roll number.
+Select option `3` and enter the student's roll number.
 
 The program displays:
 
@@ -96,11 +108,11 @@ The program displays:
 
 ### 4. Save Data
 
-Select option 4 to save student information into the `students.txt` file.
+Select option `4` to save student information into the `students.txt` file.
 
 ### 5. Exit
 
-Select option 5 to close the program.
+Select option `5` to close the program.
 
 ## Grading System
 
@@ -117,6 +129,8 @@ A student with a percentage of 40 or above is considered **Pass**.
 
 ## Example
 
+### Adding a Student
+
 ```text
 Enter your choice: 1
 
@@ -131,7 +145,7 @@ Enter marks for Subject 3: 85
 Student added successfully!
 ```
 
-For analysis:
+### Student Analysis
 
 ```text
 ===== Student Analysis =====
@@ -152,7 +166,8 @@ Student-Performance-Analyzer/
 │
 ├── student_performance_analyzer.py
 ├── students.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Python Concepts Used
