@@ -48,7 +48,7 @@ The project uses the `students.txt` file to store student data.
 ### 1. Clone the Repository
 
 ```bash
-
+https://github.com/bhoomi26mim20125/Student-Performance-Analyzer/tree/main
 ```
 
 ### 2. Open the Project Folder
