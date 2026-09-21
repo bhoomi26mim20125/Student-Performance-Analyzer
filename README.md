@@ -116,14 +116,14 @@ Select option `5` to close the program.
 
 ## Grading System
 
-| Percentage   | Grade |
-| ------------ | ----- |
-| 90 and above | A+    |
-| 80–89        | A     |
-| 70–79        | B     |
-| 60–69        | C     |
-| 50–59        | D     |
-| Below 50     | F     |
+| Percentage | Grade |
+|------------|-------|
+| 90 and above | A+ |
+| 80–89 | A |
+| 70–79 | B |
+| 60–69 | C |
+| 50–59 | D |
+| Below 50 | F |
 
 A student with a percentage of 40 or above is considered **Pass**.
 
