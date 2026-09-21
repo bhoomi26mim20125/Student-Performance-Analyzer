@@ -8,28 +8,28 @@ The project allows the user to add student information, view student records, ca
 
 ## Features
 
-* Add student details
-* Enter marks for three subjects
-* View student records
-* Analyze student performance
-* Calculate total marks
-* Calculate average marks
-* Calculate percentage
-* Assign grades
-* Show Pass or Fail result
-* Save student data to a text file
+- Add student details
+- Enter marks for three subjects
+- View student records
+- Analyze student performance
+- Calculate total marks
+- Calculate average marks
+- Calculate percentage
+- Assign grades
+- Show Pass or Fail result
+- Save student data to a text file
 
 ## Technologies Used
 
-* Python 3
-* Command Line / Terminal
-* Text File
+- Python 3
+- Command Line / Terminal
+- Text File
 
 ## Requirements
 
-* Python 3.x
-* Command Prompt or Terminal
-* No external Python libraries are required
+- Python 3.x
+- Command Prompt or Terminal
+- No external Python libraries are required
 
 ## Dependencies
 
@@ -48,7 +48,7 @@ The project uses the `students.txt` file to store student data.
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/bhoomi26mim20125/Student-Performance-Analyzer
+
 ```
 
 ### 2. Open the Project Folder
@@ -85,10 +85,9 @@ After running the program, the following menu will appear:
 ### 1. Add Student
 
 Select option `1` and enter:
-
-* Student name
-* Roll number
-* Marks for three subjects
+- Student name
+- Roll number
+- Marks for three subjects
 
 ### 2. View Students
 
@@ -99,12 +98,11 @@ Select option `2` to view all student records currently stored in the program.
 Select option `3` and enter the student's roll number.
 
 The program displays:
-
-* Total marks
-* Average
-* Percentage
-* Grade
-* Pass/Fail result
+- Total marks
+- Average
+- Percentage
+- Grade
+- Pass/Fail result
 
 ### 4. Save Data
 
@@ -173,17 +171,16 @@ Student-Performance-Analyzer/
 ## Python Concepts Used
 
 This project uses basic Python concepts including:
-
-* Variables
-* Data types
-* Input and output
-* Lists
-* Dictionaries
-* Functions
-* Loops
-* Conditional statements
-* Arithmetic operators
-* File handling
+- Variables
+- Data types
+- Input and output
+- Lists
+- Dictionaries
+- Functions
+- Loops
+- Conditional statements
+- Arithmetic operators
+- File handling
 
 ## Learning Outcomes
 
@@ -200,11 +197,10 @@ The project demonstrates how basic Python concepts can be combined to create a u
 ## Future Scope
 
 The project can be improved in the future by:
-
-* Adding more subjects
-* Updating and deleting student records
-* Searching students by name
-* Generating class-level performance statistics
-* Adding attendance information
-* Using a database for data storage
-* Adding graphical reports
+- Adding more subjects
+- Updating and deleting student records
+- Searching students by name
+- Generating class-level performance statistics
+- Adding attendance information
+- Using a database for data storage
+- Adding graphical reports
