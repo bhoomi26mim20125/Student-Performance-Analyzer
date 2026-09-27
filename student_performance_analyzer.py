@@ -10,8 +10,18 @@ def add_student():
     print("\nEnter marks for 3 subjects:")
 
     for i in range(1, 4):
-        mark = float(input(f"Enter marks for Subject {i}: "))
-        marks.append(mark)
+        while True:
+            try:
+                mark = float(input(f"Enter marks for Subject {i}: "))
+
+                if 0 <= mark <= 100:
+                    marks.append(mark)
+                    break
+                else:
+                    print("Marks must be between 0 and 100.")
+
+            except ValueError:
+                print("Please enter a valid number.")
 
     student = {
         "name": name,
@@ -97,15 +107,12 @@ def save_data():
         print("\nNo student data to save.")
         return
 
-    file = open("students.txt", "w")
-
-    for student in students:
-        file.write("Name: " + student["name"] + "\n")
-        file.write("Roll Number: " + student["roll_no"] + "\n")
-        file.write("Marks: " + str(student["marks"]) + "\n")
-        file.write("\n")
-
-    file.close()
+    with open("students.txt", "w") as file:
+        for student in students:
+            file.write("Name: " + student["name"] + "\n")
+            file.write("Roll Number: " + student["roll_no"] + "\n")
+            file.write("Marks: " + str(student["marks"]) + "\n")
+            file.write("\n")
 
     print("\nStudent data saved successfully.")
 
