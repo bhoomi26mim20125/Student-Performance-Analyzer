@@ -194,6 +194,24 @@ Student Performance Analyzer provides a simple way to manage student records and
 
 The project demonstrates how basic Python concepts can be combined to create a useful command-line application.
 
+## Testing
+
+The project was tested using different menu options and student records.
+
+The following cases were tested:
+
+* Viewing records when no student data is available
+* Adding a student with marks for three subjects
+* Viewing stored student records
+* Analyzing a student using the roll number
+* Checking total, average, percentage, grade, and Pass/Fail result
+* Saving student data to `students.txt`
+* Entering an invalid menu choice
+* Exiting the program using the Exit option
+
+The calculations and expected outputs were checked using sample student records.
+
+
 ## Future Scope
 
 The project can be improved in the future by:
