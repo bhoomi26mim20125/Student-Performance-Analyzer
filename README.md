@@ -45,17 +45,20 @@ The project uses the `students.txt` file to store student data.
 
 ## Installation
 
-1. Clone the Repository
+### 1. Clone the Repository
 
 Open the terminal and run:
 
+```bash
 git clone https://github.com/bhoomi26mim20125/Student-Performance-Analyzer.git
+```
 
 ### 2. Open the Project Folder
 
 ```bash
 cd Student-Performance-Analyzer
 ```
+
 
 ## How to Run
 
